@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDesktop", "XDesktop\XDesktop.csproj", "{67AB0591-A312-46B4-9EA5-373B6AAECDC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDesktop.UWP", "XDesktop\XDesktop.UWP.csproj", "{67AB0591-A312-46B4-9EA5-373B6AAECDC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDesktop.Standard", "XDesktop.Standard\XDesktop.Standard.csproj", "{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XDesktop.Standard", "XDesktop.Standard\XDesktop.Standard.csproj", "{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XDesktop.Shared", "XDesktop.Shared\XDesktop.Shared.shproj", "{238FC579-9DAA-4F93-844A-1CBE7298658B}"
 EndProject
