@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
+#if __MAC__
+using Foundation;
+#endif
+
 namespace XDesktop.Shared.Models
 {
     public class Item : BaseModel
@@ -13,9 +17,9 @@ namespace XDesktop.Shared.Models
 
         }
 
-        #if MAC 
-        Export("Name") 
-        #endif
+#if __MAC__
+        [Export("Name")]
+#endif
         public string Name
         {
             get => _name;

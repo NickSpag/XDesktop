@@ -4,9 +4,16 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace XDesktop.Shared
+#if __MAC__
+using Foundation;
+#endif
+
+namespace XDesktop.Shared.Models
 {
     public class BaseModel : INotifyPropertyChanged
+#if __MAC__
+    , NSObject
+#endif
     {
         public BaseModel()
         {
@@ -20,7 +27,16 @@ namespace XDesktop.Shared
             if (EqualityComparer<T>.Default.Equals(backingStore, value))
                 return false;
 
+#if __MAC__
+            WillChangeValue(propertyName);
+#endif
+
             backingStore = value;
+
+#if __MAC__
+            DidChangeValue(propertyName);
+#endif
+
             onChanged?.Invoke();
             OnPropertyChanged(propertyName);
             return true;

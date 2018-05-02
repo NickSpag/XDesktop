@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDesktop.UWP", "XDesktop\XDesktop.UWP.csproj", "{67AB0591-A312-46B4-9EA5-373B6AAECDC2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XDesktop.Standard", "XDesktop.Standard\XDesktop.Standard.csproj", "{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDesktop.Standard", "XDesktop.Standard\XDesktop.Standard.csproj", "{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XDesktop.Shared", "XDesktop.Shared\XDesktop.Shared.shproj", "{238FC579-9DAA-4F93-844A-1CBE7298658B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDesktop.Mac", "XDesktop.Mac\XDesktop.Mac.csproj", "{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -61,6 +63,22 @@ Global
 		{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}.Release|x64.Build.0 = Release|Any CPU
 		{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}.Release|x86.ActiveCfg = Release|Any CPU
 		{1B6FD502-EC4E-46A4-A2A4-95C369CD0886}.Release|x86.Build.0 = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|ARM.Build.0 = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|x64.Build.0 = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Debug|x86.Build.0 = Debug|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|ARM.ActiveCfg = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|ARM.Build.0 = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|x64.ActiveCfg = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|x64.Build.0 = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|x86.ActiveCfg = Release|Any CPU
+		{44FDC67F-AF6B-4C05-97D2-AC1A248BA923}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
